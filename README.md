@@ -9,7 +9,7 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the AOSP trees to build ROM:
 
-    repo init -u https://github.com/zawzaww/AOSP.git -b android-8.0.0_r4
+    repo init -u https://github.com/zawzaww/AOSP.git -b aosp-oreo
 
 Then to downloading the source:
 
