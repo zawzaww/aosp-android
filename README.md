@@ -7,7 +7,7 @@ Pure Android Open Source Project (AOSP) SourceCode For building Android OS.
 To get started with AOSP sources to build ROM, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-Fist, you make sure installed git-repo.
+Firstly, you will make sure installed Google's git-repo in your Computer.
 
 If you don't know Setup Environment for AOSP ROM Development,
 you will need to read this Documentation...[Building AOSP Guide](https://github.com/nathanchance/Android-Tools/blob/master/Guides/Building_AOSP.txt).
