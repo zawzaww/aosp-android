@@ -5,10 +5,10 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
-  <remote  name="github"  
+  <remote  name="github"
            fetch="https://github.com/" />
 
-  <default revision="refs/tags/android-8.0.0_r4"
+  <default revision="refs/tags/android-8.0.0_r9"
            remote="aosp"
            sync-j="4" />
 
