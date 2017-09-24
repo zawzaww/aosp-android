@@ -1,9 +1,9 @@
 # AOSP
-# Android Open Source Project
-My Personal Android Open Source Project (AOSP) SourceCode For building Custom Pure Android OS.
+## Android Open Source Project
+My Personal Android Open Source Project (AOSP) SourceCode For building Custom Pure Android OS
 
-- I aimed for reduce sorucecode filesize for my personal AOSP ROM builds
-- Removed unnecessary project paths, device trees, kernel trees and etc...
+- I aimed for reducing SourceCode's fileszie for my personal AOSP Projects
+- Removed unnecessary project paths - device trees, kernel trees, system packages and more...
 - If you don't have good internet connection, you can use this my personal Repo
 
 
@@ -36,4 +36,4 @@ After syncing is done, use these commands to build:
 
 <center><img src="http://androiddeveloper.galileo.edu/wp-content/uploads/2017/04/android-open-source-project-e1493408015792.png" height="54%" width="54%;"/></center>
 
-// ZawZaw @XDA-Developers
+// by ZawZaw @XDA-Developers
