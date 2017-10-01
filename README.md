@@ -16,7 +16,7 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the AOSP trees to build ROM:
 
-    repo init -u https://github.com/zawzaww/PureAndroidOS.git -b oreo
+    repo init -u https://github.com/zawzaww/aosp-android -b oreo
 
 
 Then to downloading the source:
@@ -36,4 +36,4 @@ After syncing is done, use these commands to build:
 
 <center><img src="http://androiddeveloper.galileo.edu/wp-content/uploads/2017/04/android-open-source-project-e1493408015792.png" height="54%" width="54%;"/></center>
 
-// by ZawZaw @XDA-Developers
+// Maintained by: ZawZaw @XDA-Developers
