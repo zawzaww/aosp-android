@@ -1,10 +1,11 @@
 # AOSP
-## Android Open Source Project
+# Android Open Source Project
+
 My Personal Android Open Source Project (AOSP) SourceCode For building Custom Pure Android OS
 
 - I aimed for reducing SourceCode's fileszie for my personal AOSP Projects
 - Removed unnecessary project paths - device trees, kernel trees, system packages and more...
-- If you don't have good internet connection, you can use this my personal Repo
+- If you need Pure AOSP Sources, you can use this my personal Repo
 
 
 
