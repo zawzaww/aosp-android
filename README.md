@@ -31,9 +31,12 @@ After syncing is done, use these commands to build:
 
     . build/envsetup.sh
 
-    lunch <device_name> (OR) lunch
+    lunch <device_name>
 
-    make -j$(nproc --all)
+    make -j$(nproc --all) (OR) make -j4
+
+Explanation:
+Build everything with make. GNU make can handle parallel tasks with a -jN argument, and it's common to use a number of tasks N that's between 1 and 2 times the number of hardware threads on the computer being used for the build. For example, on a dual-E5520 machine (2 CPUs, 4 cores per CPU, 2 threads per core), the fastest builds are made with commands between make -j16 and make -j32.
 
 <center><img src="http://androiddeveloper.galileo.edu/wp-content/uploads/2017/04/android-open-source-project-e1493408015792.png" height="54%" width="54%;"/></center>
 
