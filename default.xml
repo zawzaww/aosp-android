@@ -5,10 +5,10 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
-  <remote  name="github"
-           fetch="https://github.com/" />
+  <remote  name="aospmirror"
+           fetch="https://github.com/aosp-mirror/" />
 
-  <default revision="refs/tags/android-8.0.0_r32"
+  <default revision="refs/tags/android-8.0.0_r34"
            remote="aosp"
            sync-j="4" />
 
