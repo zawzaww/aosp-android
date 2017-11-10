@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- AOSP remote -->
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
+  <!-- GitHub remote -->
   <remote  name="github"
            fetch="https://github.com/" />
-
+           
   <default revision="refs/tags/android-8.0.0_r34"
            remote="aosp"
+           sync-c="true"
+           sync-f="true"
            sync-j="4" />
 
+  <!-- AOSP Repos -->
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
