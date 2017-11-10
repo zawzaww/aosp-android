@@ -3,7 +3,7 @@
 
   <!-- Removed AOSP Repos -->
   <!-- Unused Repos -->
-  <!-- Device tree and System package Repos -->
+  <!-- Google's Device tree and Prebuilt kernel Repos -->
   <remove-project name="device/asus/fugu" />
   <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/common" />
@@ -32,7 +32,11 @@
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/taimen" />
   <remove-project name="device/google/vrservices" />
+  <remove-project name="device/google/wahoo" />
+  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/huawei/angler" />
   <remove-project name="device/huawei/angler-kernel" />
   <remove-project name="device/lge/bullhead" />
@@ -43,5 +47,5 @@
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
-
+  
 </manifest>
