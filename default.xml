@@ -628,4 +628,7 @@
   
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- Removed AOSP Repos -->
+  <include name="remove.xml" />
+
 </manifest>
