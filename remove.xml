@@ -64,7 +64,6 @@
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
-  <remove-project name="platform/packages/apps/SpeechRecorder" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
