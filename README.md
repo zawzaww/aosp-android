@@ -18,6 +18,9 @@ To initialize your local repository using the AOSP trees to build ROM:
 
     repo init -u https://github.com/zawzaww/pure-aosp-android.git -b oreo
 
+To initialize a shallow clone, which will save even more space, use a command like this:
+
+    repo init --depth=1 -u https://github.com/zawzaww/pure-aosp-android.git -b oreo
 
 Then to downloading the source:
 
@@ -32,7 +35,7 @@ After syncing is done, use these commands to build:
 
     lunch <device_name>
 
-    make -j$(nproc --all) (OR) make -j4
+    make -j4 (OR) make -j$(nproc --all) 
 
 Explanation:
 Build everything with make. GNU make can handle parallel tasks with a -jN argument, and it's common to use a number of tasks N that's between 1 and 2 times the number of hardware threads on the computer being used for the build. For example, on a dual-E5520 machine (2 CPUs, 4 cores per CPU, 2 threads per core), the fastest builds are made with commands between make -j16 and make -j32.
