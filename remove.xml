@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <!-- Removed AOSP Repos -->
   <!-- Unused Repos -->
   <!-- Google's Device tree Repos -->
@@ -51,7 +50,6 @@
   <!-- Package system Apps Repos -->
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Calendar" />
-  <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/Email" />
@@ -65,7 +63,4 @@
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
-  <remove-project name="platform/packages/screensavers/Basic" />
-  <remove-project name="platform/packages/screensavers/PhotoTable" />
-  
 </manifest>
