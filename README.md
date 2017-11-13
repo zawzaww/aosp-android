@@ -16,11 +16,12 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the AOSP trees to build ROM:
 
-    repo init -u https://github.com/zawzaww/PureAndroid-OS.git -b oreo
+    repo init -u https://github.com/zawzaww/PureAndroid-OS.git -b android-8.0.0
 
 To initialize a shallow clone, which will save even more space, use a command like this:
 
-    repo init --depth=1 -u https://github.com/zawzaww/PureAndroid-OS.git -b oreo
+    repo init --depth=1 -u https://github.com/zawzaww/PureAndroid-OS.git -b android-8.0.0
+
 
 Then to downloading the source:
 
