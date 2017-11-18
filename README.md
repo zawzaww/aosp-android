@@ -3,9 +3,9 @@
 
 My Personal Android Open Source Project (AOSP) SourceCode For building Custom Pure Android OS
 
-- I aimed for reducing SourceCode's fileszie for my personal AOSP Projects
-- Removed unnecessary project paths - device trees, kernel trees, system packages and more...
-- If you need Pure AOSP Sources, you can use this my personal Repo
+- I aimed for reducing Android SourceCode's fileszie for my personal AOSP Projects.
+- Removed unnecessary android repos - device trees, kernel prebuilts, system packages and more...
+- If you need Pure AOSP Sources, you can use this my personal GitHub Repo.
 
 
 ## How To Build Pure AOSP ROM For Your Android Device
@@ -16,11 +16,11 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the AOSP trees to build ROM:
 
-    repo init -u https://github.com/zawzaww/pure-android.git -b android-8.0.0
+    repo init -u https://github.com/zawzaww/aosp-android-manifest.git -b android-8.0.0
 
 To initialize a shallow clone, which will save even more space, use a command like this:
 
-    repo init --depth=1 -u https://github.com/zawzaww/pure-android.git -b android-8.0.0
+    repo init --depth=1 -u https://github.com/zawzaww/aosp-android-manifest.git -b android-8.0.0
 
 
 Then to downloading the source:
