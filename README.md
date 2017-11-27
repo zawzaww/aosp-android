@@ -18,11 +18,11 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the AOSP trees to build ROM:
 
-    repo init -u https://github.com/zawzaww/aosp-android-manifest.git -b android-8.0.0
+    repo init -u https://github.com/zawzaww/aosp-android.git -b android-8.0.0
 
 To initialize a shallow clone, which will save even more space, use a command like this:
 
-    repo init --depth=1 -u https://github.com/zawzaww/aosp-android-manifest.git -b android-8.0.0
+    repo init --depth=1 -u https://github.com/zawzaww/aosp-android.git -b android-8.0.0
 
 
 Then to downloading the source:
@@ -54,4 +54,4 @@ Build everything with make. GNU make can handle parallel tasks with a -jN argume
 
 <center><img src="http://androiddeveloper.galileo.edu/wp-content/uploads/2017/04/android-open-source-project-e1493408015792.png" height="54%" width="54%;"/></center>
 
-// Maintained by: ZawZaw [@xda-developers](https://forum.xda-developers.com/member.php?u=7581611)
+// Contributed by: ZawZaw [@xda-developers](https://forum.xda-developers.com/member.php?u=7581611)
