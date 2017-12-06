@@ -11,7 +11,7 @@
            fetch="https://github.com/" />
 
   <!-- AOSP's branch name / android release -->         
-  <default revision="refs/tags/android-8.0.0_r34"
+  <default revision="refs/tags/android-8.0.0_r35"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
