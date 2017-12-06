@@ -10,7 +10,7 @@ My Personal Android Open Source Project (AOSP) SourceCode For building Custom Pu
 - If you need Pure AOSP Sources, you can use this my personal GitHub Repo.
 
 
-## How To Build Pure AOSP ROM For Your Android Device
+## How To Build Pure AOSP ROM For Android Devices
 
 To get started with AOSP sources to build ROM, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
@@ -18,11 +18,11 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the AOSP trees to build ROM:
 
-    repo init -u https://github.com/zawzaww/aosp-android.git -b android-8.0.0
+    repo init -u https://github.com/zawzaww/aosp-android.git -b android-8.1.0
 
 To initialize a shallow clone, which will save even more space, use a command like this:
 
-    repo init --depth=1 -u https://github.com/zawzaww/aosp-android.git -b android-8.0.0
+    repo init --depth=1 -u https://github.com/zawzaww/aosp-android.git -b android-8.1.0
 
 
 Then to downloading the source:
