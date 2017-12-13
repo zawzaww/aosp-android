@@ -2,7 +2,8 @@
 <manifest>
   <!-- Removed AOSP Repos -->
   <!-- Unused Repos -->
-  <!-- Google's Device tree Repos -->
+
+  <!-- Device tree Repos -->
   <remove-project name="device/asus/fugu" />
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
@@ -39,6 +40,7 @@
   <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/sample" />
+
   <!-- Prebuilt Kernel Repos -->
   <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/google/dragon-kernel" />
@@ -47,6 +49,7 @@
   <remove-project name="device/huawei/angler-kernel" />
   <remove-project name="device/lge/bullhead-kernel" />
   <remove-project name="device/linaro/hikey-kernel" />
+
   <!-- Package system Apps Repos -->
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Calendar" />
@@ -63,4 +66,9 @@
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
+  <remove-project name="platform/packages/apps/TimeZoneData" />
+  <remove-project name="platform/packages/apps/TimeZoneUpdater" />
+  <remove-project name="platform/packages/apps/TV" />
+  <remove-project name="platform/packages/apps/TvSettings" />
+  <remove-project name="platform/packages/apps/Terminal" />
 </manifest>
