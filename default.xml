@@ -11,7 +11,7 @@
            fetch="https://github.com/" />
 
   <!-- AOSP Android Version Release -->         
-  <default revision="refs/tags/android-8.1.0_r2"
+  <default revision="refs/tags/android-8.1.0_r3"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -635,5 +635,5 @@
   
   <!-- Removed AOSP Repos -->
   <include name="remove.xml" />
-
+  
 </manifest>
