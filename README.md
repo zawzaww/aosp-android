@@ -51,4 +51,4 @@ Build everything with make. GNU make can handle parallel tasks with a -jN argume
 
 <center><img src="http://androiddeveloper.galileo.edu/wp-content/uploads/2017/04/android-open-source-project-e1493408015792.png" height="54%" width="54%;"/></center>
 
-// Contributed by: ZawZaw [@xda-developers](https://forum.xda-developers.com/member.php?u=7581611)
+// Contributed by: ZawZaw [@XDA-Developers](https://forum.xda-developers.com/member.php?u=7581611)
