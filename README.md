@@ -4,37 +4,43 @@
 # Android Open Source Project
 
 My Personal AOSP SourceCode For Building Pure Android OS.(For my Personal ROM Builds)
-
-- I aimed for reducing Android SourceCode's fileszie for my personal AOSP Projects.
-- Removed unnecessary android repos - device trees, kernel prebuilts, system packages and more.
+- I aimed for reducing Android OS SourceCode's fileszie for my personal AOSP Projects.
+- Removed unnecessary Android Git Repos - device trees, kernel prebuilts, system packages and more.
 - Added Substratum Theme Engine/OMS Support.
-- If you need Pure AOSP Sources, you can use this my personal GitHub Repo.
-
+- If you need Pure AOSP Sources, you can use this my Personal AOSP GitHub Repo.
 
 ## How To Build Pure AOSP ROM For Android Devices
-
 To get started with AOSP sources to build ROM, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-
 To initialize your local repository using the AOSP trees to build ROM:
+```bash
+   repo init -u https://github.com/zawzaww/aosp-android.git -b android-8.1.0
+```
 
-    repo init -u https://github.com/zawzaww/aosp-android.git -b android-8.1.0
+(OR)
 
 To initialize a shallow clone, which will save even more space, use a command like this:
-
-    repo init --depth=1 -u https://github.com/zawzaww/aosp-android.git -b android-8.1.0
-
-
-Then to downloading the source:
 ```bash
-repo sync
+   repo init --depth=1 -u https://github.com/zawzaww/aosp-android.git -b android-8.1.0
 ```
+
+Then to downloading the sources:
+```bash
+   repo sync
+```
+
  (OR)
-```bash
-repo sync -j$(nproc --all)
-```
 
+Additionally, you can define the number of parallel download repo should do:
+- X - the number of parallel downlods
+```bash
+   repo sync -jX -f --force-sync --no-clone-bundle --no-tags
+```
+You can type this:
+```bash
+   repo sync  -f --force-sync --no-clone-bundle --no-tags -j$(nproc --all)
+```
 
 After syncing is done, use these commands to build:
 ```bash
