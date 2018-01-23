@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <!-- AOSP remote -->
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
@@ -11,7 +10,7 @@
            fetch="https://github.com/" />
 
   <!-- AOSP Android Version Release -->         
-  <default revision="refs/tags/android-8.1.0_r7"
+  <default revision="refs/tags/android-8.1.0_r8"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
