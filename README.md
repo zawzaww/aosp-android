@@ -1,12 +1,10 @@
-<img src="https://s20.postimg.org/mynqibckt/Android-_Open-_Source-_Project-710x277.jpg" height="100%" width="100%;"/>
-
 # AOSP
 # Android Open Source Project
 
-My Personal AOSP SourceCode For Building Pure Android OS.
+My Personal AOSP SourceCode For Building Pure Android OS
 - I aimed for reducing Android OS SourceCode's fileszie for my personal AOSP ROM Projects.
 - Removed unnecessary Android Git Repos - device trees, kernel prebuilts, system packages and more.
-- Supported OMS/substratum theme engine.
+- Supported OMS/Substratum Theme Engine.
 - If you need Pure AOSP Sources, you can use this my Personal AOSP GitHub Repo.
 
 ## How To Build Pure AOSP ROM For Android Devices
