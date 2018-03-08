@@ -13,14 +13,14 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the AOSP trees to build ROM:
 ```bash
-   repo init -u https://github.com/zawzaww/aosp-android.git -b android-8.1.0
+   repo init -u https://github.com/zawzaww/aosp-android.git -b master
 ```
 
 (OR)
 
 To initialize a shallow clone, which will save even more space, use a command like this:
 ```bash
-   repo init --depth=1 -u https://github.com/zawzaww/aosp-android.git -b android-8.1.0
+   repo init --depth=1 -u https://github.com/zawzaww/aosp-android.git -b master
 ```
 
 Then to downloading the sources:
