@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
-
-# Script to setup environment for android ROM development
-# For linux: ubuntu
-# 
+# A Script to Setup environment for Android ROM Development
+# For Ubuntu Linux
 
 clear
 echo Installing Dependencies!
