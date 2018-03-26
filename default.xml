@@ -630,6 +630,6 @@
   <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
   <!-- Removed AOSP Repos -->
-  <include name="remove.xml" />
+  <include name="remove/remove.xml" />
 
 </manifest>
