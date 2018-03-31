@@ -1,5 +1,3 @@
-<img src="https://s20.postimg.org/mynqibckt/Android-_Open-_Source-_Project-710x277.jpg" height="100%" width="100%;" />
-
 # AOSP
 # Android Open Source Project
 
@@ -12,6 +10,8 @@ My Personal AOSP SourceCode For Building Pure Android OS
 ## How To Build Pure AOSP ROM For Android Devices
 To get started with AOSP sources to build ROM, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
+
+If you want to automatic setup environment, run this script [env-setup.sh](https://github.com/zawzaww/aosp-android/blob/android-p-preview/env-setup/env-setup.sh).
 
 To initialize your local repository using the AOSP trees to build ROM:
 ```bash
