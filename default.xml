@@ -135,6 +135,7 @@
   <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk" />
+  <project path="external/dokka" name="platform/external/dokka" groups="pdk" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk" />
   <project path="external/drrickorang" name="platform/external/drrickorang" groups="pdk" />
@@ -487,6 +488,7 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
@@ -687,9 +689,11 @@
   <project path="tools/metalava" name="platform/tools/metalava" groups="tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" />
+  <project path="tools/security" name="platform/tools/security" groups="pdk,tools" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
+  <project path="tools/test/graphicsbenchmark" name="platform/tools/test/graphicsbenchmark" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
