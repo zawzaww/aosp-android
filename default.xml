@@ -10,7 +10,7 @@
            fetch="https://github.com/" />
 
   <!-- AOSP Android Version Release -->         
-  <default revision="refs/tags/android-p-preview-4"
+  <default revision="refs/tags/android-p-preview-5"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
