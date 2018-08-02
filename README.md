@@ -1,17 +1,17 @@
 # AOSP
-# Android Open Source Project
+## Android Open Source Project
 
-My Personal AOSP SourceCode For Building Pure Android OS
-- I aimed for reducing Android OS SourceCode's fileszie for my personal AOSP ROM Projects.
+My Personal Android AOSP SourceCode for Building Pure Android
+- This repository is aimed for reducing AOSP SourceCode's fileszie for my Personal ROM projects.
 - Removed unnecessary Android Git Repos - device trees, kernel prebuilts, system packages and more.
 - Supported OMS/Substratum Theme Engine.
-- If you need Pure AOSP Sources, you can use this my Personal AOSP GitHub Repo.
+- If you need Pure AOSP Sources, you can use this repository.
 
-## How To Build Pure AOSP ROM For Android Devices
+## How To Build Pure Android for Your Android Device
 To get started with AOSP sources to build ROM, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-If you want to automatic setup environment, run this script [env-setup.sh](https://github.com/zawzaww/aosp-android/blob/android-p-preview/env-setup/env-setup.sh).
+If you want to automatic setup environment, run this script [envsetup.sh](https://github.com/zawzaww/aosp-android/blob/android-p-preview/envsetup/envsetup.sh).
 
 To initialize your local repository using the AOSP trees to build ROM:
 ```bash
@@ -61,4 +61,4 @@ visit here...https://source.android.com/setup/building
 
 <center><img src="http://androiddeveloper.galileo.edu/wp-content/uploads/2017/04/android-open-source-project-e1493408015792.png" height="54%" width="54%;"/></center>
 
-// Contributed by: ZawZaw [@XDA-Developers](https://forum.xda-developers.com/member.php?u=7581611)
+Contributed by: ZawZaw [@XDA-Developers](https://forum.xda-developers.com/member.php?u=7581611)
