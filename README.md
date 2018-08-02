@@ -1,18 +1,18 @@
 # AOSP
-# Android Open Source Project
+## Android Open Source Project
 
-My Personal AOSP SourceCode for Building Pure Android
-- This repository is aimed for reducing Android AOSP SourceCode's fileszie for my Personal projects.
+My Personal Android AOSP SourceCode for Building Pure Android
+- This repository is aimed for reducing AOSP SourceCode's fileszie for my Personal ROM projects.
 - Removed unnecessary Android Git Repos - device trees, kernel prebuilts, system packages and more.
 - Supported OMS/Substratum Theme Engine.
-- If you need Android AOSP Sources, you can use this repository.
+- If you need Pure AOSP Sources, you can use this repository.
 
-## How To Build Pure AOSP ROM For Your Android Device
+## How To Build Pure Android for Your Android Device
 
 To get started with AOSP sources to build ROM, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-If you want to automatic setup environment, run this script [env-setup.sh](https://github.com/zawzaww/aosp-android/blob/android-8.0.0/env-setup/env-setup.sh).
+If you want to automatic setup environment, run this script [env-setup.sh](https://github.com/zawzaww/aosp-android/blob/android-8.0.0/envsetup/envsetup.sh).
 
 To initialize your local repository using the AOSP trees to build ROM:
 
