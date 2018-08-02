@@ -12,7 +12,7 @@ My Personal Android AOSP SourceCode for Building Pure Android
 To get started with AOSP sources to build ROM, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-If you want to automatic setup environment, run this script [env-setup.sh](https://github.com/zawzaww/aosp-android/blob/android-8.0.0/envsetup/envsetup.sh).
+If you want to automatic setup environment, run this script [envsetup.sh](https://github.com/zawzaww/aosp-android/blob/android-8.0.0/envsetup/envsetup.sh).
 
 To initialize your local repository using the AOSP trees to build ROM:
 
@@ -59,4 +59,4 @@ visit here...https://source.android.com/setup/building
 
 <center><img src="http://androiddeveloper.galileo.edu/wp-content/uploads/2017/04/android-open-source-project-e1493408015792.png" height="54%" width="54%;"/></center>
 
-// Contributed by: ZawZaw [@XDA-Developers](https://forum.xda-developers.com/member.php?u=7581611)
+Contributed by: ZawZaw [@XDA-Developers](https://forum.xda-developers.com/member.php?u=7581611)
