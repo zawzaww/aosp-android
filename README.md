@@ -1,27 +1,29 @@
 # AOSP
-## Android Open Source Project
+## My Personal AOSP Sources for Building Pure Android OS
 
-My Personal Android AOSP SourceCode for Building Pure Android
-- This repository is aimed for reducing AOSP SourceCode's fileszie for my Personal ROM projects.
-- Removed unnecessary Android Git Repos - device trees, kernel prebuilts, system packages and more.
-- Supported OMS/Substratum Theme Engine.
-- If you need Pure AOSP Sources, you can use this repository.
+AOSP (Android Open Source Project)
+- This repository is aimed for reducing AOSP SourceCode's file size for my personal Pure Android OS projects.
+- Removed unnecessary Android Git repositories: device trees, kernel trees, system packages and apps.
+- Supported OMS/substratum android theme engine.
+- You can use this personal AOSP repository if you need AOSP sources.
 
-## How To Build Pure Android for Your Android Device
-
+## How To Build Pure Android OS for Android Devices
 To get started with AOSP sources to build ROM, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 If you want to automatic setup environment, run this script [envsetup.sh](https://github.com/zawzaww/aosp-android/blob/android-8.0.0/envsetup/envsetup.sh).
 
 To initialize your local repository using the AOSP trees to build ROM:
+```bash
+   repo init -u https://github.com/zawzaww/aosp-android.git -b android-8.0.0
+```
 
-    repo init -u https://github.com/zawzaww/aosp-android.git -b android-8.0.0
+(OR)
 
 To initialize a shallow clone, which will save even more space, use a command like this:
-
-    repo init --depth=1 -u https://github.com/zawzaww/aosp-android.git -b android-8.0.0
-
+```bash
+   repo init --depth=1 -u https://github.com/zawzaww/aosp-android.git -b android-8.0.0
+```
 
 Then to downloading the sources:
 ```bash
