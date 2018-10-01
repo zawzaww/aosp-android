@@ -1,39 +1,40 @@
 <p align="center"><img src="https://i.postimg.cc/jd55kvPw/Pure_Z-_Logo.png" /></p>
 
-# PureZ AOSP
-## Android Platform Manifest for Building PureZ AOSP ROM
+# PureZAOSP
+## Android Platform Manifest for Building PureZAOSP ROM
 
-PureZ AOSP is a free and Open-source Pure AOSP Andorid Custom-Firmware and Focused on Pure Android UI/UX with Upstream Linux.
-It's my personal AOSP Build project for learning Embedded Android OS and sharing Pure Android experience ROM for my friends.
+PureZAOSP is an Open-source Pure AOSP Android Custom-firmware/ROM and focused on Pure Android UI/UX with Upstream Linux Kernel.
+It's is my perosnal Pure AOSP build project for learning Embedded Android OS and sharing Pure Android experience for my friends.
 
 ## GOALS
-- Pure Android UI/UX with Upstream Linux
+- Pure Android UI/UX with Upstream Linux Kernel
 - Up to Date Linux Kernel version
 - Up to Date Android OS version
 - Up to Date Android Security Patch
 - Healthy Linux-stable Kernel
-- Good Performance and good Battery Life
+- Good Battery Life and Permformance
+- OMS/Substratum Theme Engine Support
 - No ROOT
 - No Modifications and Pure AOSP
 - Stable and Latest Pure Android features
-- And more..
+- And More
 
-## How To Build PureZ AOSP for Android Devices
-To get started with PureZ AOSP sources to build ROM, you'll need to get
+## How To Build PureZAOSP for Android Devices
+To get started with PureZAOSP sources to build ROM, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 If you want to automatic setup environment, run this script [envsetup.sh](https://github.com/zawzaww/aosp-android/blob/android-9.0.0/envsetup/envsetup.sh).
 
-To initialize your local repository using the PureZ AOSP trees to build ROM:
+To initialize your local repository using the PureZAOSP trees to build ROM:
 ```bash
-   repo init -u https://github.com/zawzaww/purezaosp-android.git -b android-9.0.0
+   repo init -u https://github.com/zawzaww/purez-aospandroid.git -b android-9.0.0
 ```
 
 (OR)
 
 To initialize a shallow clone, which will save even more space, use a command like this:
 ```bash
-   repo init --depth=1 -u https://github.com/zawzaww/purezaosp-android.git -b android-9.0.0
+   repo init --depth=1 -u https://github.com/zawzaww/purez-aospandroid.git -b android-9.0.0
 ```
 
 Then to downloading the sources:
