@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Removed AOSP Repos -->
-  <!-- Unused Repos -->
 
   <!-- Device tree Repos -->
   <remove-project name="device/common" />
@@ -67,4 +66,5 @@
   <remove-project name="platform/packages/apps/TV" />
   <remove-project name="platform/packages/apps/TvSettings" />
   <remove-project name="platform/packages/apps/Terminal" />
+  
 </manifest>
