@@ -1,9 +1,9 @@
 # Pure AOSP
-## Android Platform Manifest for Building Pure AOSP Custom-ROM
+## Android Platform Manifest : My Personal Manifest for Building Pure AOSP
 
 AOSP (Android Open Source Project)
-- What is Pure AOSP? Pure AOSP is an unmodified Android Operating System aka Pure Android.
-- This repository is aimed for reducing AOSP SourceCode's file size for my personal Pure AOSP ROM projects.
+- Pure AOSP is an unmodified Android OS (Operating System) also known as Pure Android.
+- This repository is aimed for reducing AOSP SourceCode's file size for my personal Embedded Android/OS projects.
 - Removed unnecessary Android Git repositories: device trees, kernel trees, system packages and apps.
 - Supported OMS/substratum android theme engine.
 - You can use this personal AOSP repository if you need AOSP sources.
