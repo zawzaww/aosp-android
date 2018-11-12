@@ -1,14 +1,16 @@
-# Pure AOSP
-## Android Platform Manifest : My Personal Manifest for Building Pure AOSP
+# PureAOSP
+## Android Platform Manifest : My Personal Manifest for Building PureAOSP
 
-AOSP (Android Open Source Project)
-- Pure AOSP is an unmodified Android OS (Operating System) also known as Pure Android.
-- This repository is aimed for reducing AOSP SourceCode's file size for my personal Embedded Android/OS projects.
-- Removed unnecessary Android Git repositories: device trees, kernel trees, system packages and apps.
+[AOSP(Android Open Source Project)](https://source.android.com/setup/start/faqs#what-is-the-android-open-source-project)
+
+- What is PureAOSP? [PureAOSP](https://android.googlesource.com) is a free and Open-source unmodified Android OS also known as Pure Android.
+- This repository is aimed for reducing AOSP SourceCode's filesize for my personal AOSP projects.
+- Removed unnecessary Android Git repositories: device trees, kernel trees, system packages, apps and others.
 - Supported OMS/substratum android theme engine.
 - You can use this personal AOSP repository if you need AOSP sources.
 
-## How To Build Pure AOSP Custom-ROM for Android Devices
+
+## How To Build PureAOSP for Android Devices
 To get started with AOSP sources to build ROM, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
@@ -57,6 +59,6 @@ make -j4 (OR) make -j$(nproc --all)
 ### Explanation:
 Build everything with make. GNU make can handle parallel tasks with a -jN argument, and it's common to use a number of tasks N that's between 1 and 2 times the number of hardware threads on the computer being used for the build. For example, on a dual-E5520 machine (2 CPUs, 4 cores per CPU, 2 threads per core), the fastest builds are made with commands between make -j16 and make -j32.
 
-If you want to know detail about Pure AOSP building for your android device, read more on my [Personal Blog.](https://medium.com/zawzaww/how-to-build-custom-android-os-for-android-devices-cf4bba4bb3a5)
+If you want to know detail about Custom Android OS building for your android device, read more on my [Personal Blog.](https://medium.com/zawzaww/how-to-build-custom-android-os-for-android-devices-cf4bba4bb3a5)
 
 Contributed by: ZawZaw [@XDA-Developers](https://forum.xda-developers.com/member.php?u=7581611)
