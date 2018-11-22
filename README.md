@@ -12,20 +12,20 @@
 
 ## How To Build AOSPOne for Android Devices
 To get started with AOSP sources to build ROM, you'll need to get
-familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
+familiar with [Git and Repo](https://source.android.com/setup/develop/repo).
 
-If you want to automatic setup environment, run this script [envsetup.sh](https://github.com/zawzaww/aosp-android/blob/android-9.0.0/envsetup/envsetup.sh).
+If you want to automatic setup environment, run this script [envsetup.sh](https://github.com/aospone-android/platform-manifest/blob/android-9.0.0/envsetup/envsetup.sh).
 
 To initialize your local repository using the AOSP trees to build ROM:
 ```bash
-   repo init -u https://github.com/zawzaww/aosp-android.git -b android-9.0.0
+   repo init -u https://github.com/aospone-android/platform-manifest.git -b android-9.0.0
 ```
 
 (OR)
 
 To initialize a shallow clone, which will save even more space, use a command like this:
 ```bash
-   repo init --depth=1 -u https://github.com/zawzaww/aosp-android.git -b android-9.0.0
+   repo init --depth=1 -u https://github.com/aospone-android/platform-manifest.git -b android-9.0.0
 ```
 
 Then to downloading the sources:
