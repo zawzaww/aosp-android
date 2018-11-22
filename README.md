@@ -1,31 +1,31 @@
-# PureAOSP
-## Android Platform Manifest : My Personal Manifest for Building PureAOSP
+# AOSPOne
+## Android Platform Manifest for Building AOSPOne
 
 [AOSP(Android Open Source Project)](https://source.android.com/setup/start/faqs#what-is-the-android-open-source-project)
 
-- What is PureAOSP? [PureAOSP](https://android.googlesource.com) is a free and Open-source unmodified Android OS also known as Pure Android.
-- This repository is aimed for reducing AOSP SourceCode's filesize for my personal AOSP projects.
+- What is AOSPOne? [AOSPOne](https://android.googlesource.com) is a free and Open-source unmodified Android OS also known as Pure Android.
+- This repository is aimed for reducing AOSP SourceCode's filesize for my personal AOSPOne project.
 - Removed unnecessary Android Git repositories: device trees, kernel trees, system packages, apps and others.
 - Supported OMS/substratum android theme engine.
-- You can use this personal AOSP repository if you need AOSP sources.
+- You can use this personal AOSPOne repository if you need AOSP sources.
 
 
-## How To Build PureAOSP for Android Devices
+## How To Build AOSPOne for Android Devices
 To get started with AOSP sources to build ROM, you'll need to get
-familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
+familiar with [Git and Repo](https://source.android.com/setup/develop/repo).
 
-If you want to automatic setup environment, run this script [envsetup.sh](https://github.com/zawzaww/aosp-android/blob/android-8.1.0/envsetup/envsetup.sh).
+If you want to automatic setup environment, run this script [envsetup.sh](https://github.com/aospone-android/platform-manifest/blob/android-8.1.0/envsetup/envsetup.sh).
 
 To initialize your local repository using the AOSP trees to build ROM:
 ```bash
-   repo init -u https://github.com/zawzaww/aosp-android.git -b android-8.1.0
+   repo init -u https://github.com/aospone-android/platform-manifest.git -b android-8.1.0
 ```
 
 (OR)
 
 To initialize a shallow clone, which will save even more space, use a command like this:
 ```bash
-   repo init --depth=1 -u https://github.com/zawzaww/aosp-android.git -b android-8.1.0
+   repo init --depth=1 -u https://github.com/aospone-android/platform-manifest.git -b android-8.1.0
 ```
 
 Then to downloading the sources:
