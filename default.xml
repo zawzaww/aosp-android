@@ -11,7 +11,7 @@
            fetch="https://github.com/" />
 
   <!-- AOSP Android Version Release -->
-  <default revision="refs/tags/android-9.0.0_r16"
+  <default revision="refs/tags/android-9.0.0_r17"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
