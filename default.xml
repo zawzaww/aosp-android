@@ -721,5 +721,8 @@
   
   <!-- Substratum/OMS Project -->
   <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
+
+  <!-- Removed AOSP Projects -->
+  <include name="remove.xml" />
   
 </manifest>
