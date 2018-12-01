@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Removed AOSP repositories -->
 
-  <!-- Removed AOSP Project repositories -->
+  <!-- Development Demos and Samples -->
+  <remove-project name="platform/developers/build" />
+  <remove-project name="platform/developers/demos" />
+  <remove-project name="platform/developers/samples/android" />
+  <remove-project name="platform/development" />
+
   <!-- Device trees -->
   <remove-project name="device/generic/uml" />
   <remove-project name="device/common" />
