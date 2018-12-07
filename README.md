@@ -5,8 +5,8 @@
 
 What is AOSP One?
 
-- AOSP One is a free and Open-source Pure AOSP Android Custom firmware Project also known as Pure Android OS Based on AOSP with Upstream Linux Kernel.
-- AOSP One is my personal AOSP-based Pure Android firmware Project.
+- AOSP One is a Pure Android Custom firmware Project also known as Pure Android OS Based on AOSP Android Platform with Upstream Linux Kernel.
+- AOSP One is my personal AOSP-based Pure Android Custom firmware Project.
 - This repository is aimed for reducing AOSP SourceCode's filesize for my personal AOSP One project.
 - Removed unnecessary Android Git repositories: device trees, kernel trees, system packages, apps and others.
 - You can use this AOSP One repository if you need AOSP Android Platform sources.
