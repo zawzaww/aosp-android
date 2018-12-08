@@ -5,7 +5,7 @@
 
 What is AOSP One?
 
-- AOSP One is a Pure Android Custom firmware Project also known as Pure Android OS Based on AOSP Android Platform with Upstream Linux Kernel.
+- AOSP One is an Open-source Pure Android Custom firmware Project also known as Pure Android OS Based on AOSP Android Platform with Upstream Linux Kernel.
 - AOSP One is my personal AOSP-based Pure Android Custom firmware Project.
 - This repository is aimed for reducing AOSP SourceCode's filesize for my personal AOSP One project.
 - Removed unnecessary Android Git repositories: device trees, kernel trees, system packages, apps and others.
@@ -18,14 +18,14 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading#
 
 To initialize your local repository using the AOSP One trees to build ROM:
 ```bash
-   repo init -u https://github.com/aospone-android/aospone-android.git -b android-9.0.0
+   repo init -u https://github.com/zawzaww/aospone-android.git -b android-9.0.0
 ```
 
 (OR)
 
 To initialize a shallow clone, which will save even more space, use a command like this:
 ```bash
-   repo init --depth=1 -u https://github.com/aospone-android/aospone-android.git -b android-9.0.0
+   repo init --depth=1 -u https://github.com/zawzaww/aospone-android.git -b android-9.0.0
 ```
 
 Then to downloading the sources:
