@@ -10,7 +10,7 @@
            fetch="https://github.com/" />
 
   <!-- AOSP Android Version Release -->         
-  <default revision="refs/tags/android-8.1.0_r51"
+  <default revision="refs/tags/android-8.1.0_r53"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -627,9 +627,6 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
-
-  <!-- Substratum/OMS Support -->
-  <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
   
   <!-- Removed AOSP Repos -->
   <include name="remove.xml" />
