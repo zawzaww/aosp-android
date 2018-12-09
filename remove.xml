@@ -46,6 +46,10 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
 
+  <!-- Kernel -->
+  <remove-project name="kernel/configs" />
+  <remove-project name="kernel/tests" />
+
   <!-- System Packages Apps -->
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/DeskClock" />
