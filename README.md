@@ -14,14 +14,14 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading#
 
 To initialize your local repository using the PureAOSP trees to build System image:
 ```bash
-   repo init -u https://github.com/zawzaww/aospone-android.git -b android-9.0.0
+   repo init -u https://github.com/zawzaww/pure-aospandroid.git -b android-9.0.0
 ```
 
 (OR)
 
 To initialize a shallow clone, which will save even more space, use a command like this:
 ```bash
-   repo init --depth=1 -u https://github.com/zawzaww/aospone-android.git -b android-9.0.0
+   repo init --depth=1 -u https://github.com/zawzaww/pure-aospandroid.git -b android-9.0.0
 ```
 
 Then to downloading the sources:
