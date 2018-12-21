@@ -1,22 +1,18 @@
-# AOSP One
-## Android Platform Manifest for Building AOSP One
+# PureAOSP
+## Android Platform Manifest for Pure Android System Image
 
-[AOSP (Android Open Source Project)](https://android.googlesource.com/)
-
-What is AOSP One?
-
-- AOSP One is an Open-source Pure Android Custom firmware Project also known as Pure Android OS Based on AOSP Android Platform with Upstream Linux Kernel.
-- AOSP One is my personal AOSP-based Pure Android Custom firmware Project.
-- This repository is aimed for reducing AOSP SourceCode's filesize for my personal AOSP One project.
-- Removed unnecessary Android Git repositories: device trees, kernel trees, system packages, apps and others.
-- You can use this AOSP One repository if you need AOSP Android Platform sources.
+[AOSP - Android Open Source Project](https://source.android.com)
+- [PureAOSP](https://android.googlesource.com) is a free and Open-source unmodified-Android OS also known as Pure Android with Upstream Linux Kernel.
+- This repository is aimed for reducing AOSP SourceCode's filesize for my personal PureAOSP project.
+- Remove unused Android Git repositories: device trees, kernel trees, system packages, apps and others.
+- You can use this PureAOSP repository if you need AOSP Android Platform Sources.
 
 
-## How To Build AOSP One for Android Devices
-To get started with AOSP One sources to build ROM, you'll need to get
+## How To Build Pure Android System Image for Devices
+To get started with PureAOSP sources to build Android System image, you'll need to get
 familiar with [Git and Repo](https://source.android.com/setup/build/downloading#installing-repo).
 
-To initialize your local repository using the AOSP One trees to build ROM:
+To initialize your local repository using the PureAOSP trees to build System image:
 ```bash
    repo init -u https://github.com/zawzaww/aospone-android.git -b android-9.0.0
 ```
@@ -56,7 +52,7 @@ lunch <device_name>
 make -j4 (OR) make -j$(nproc --all)
 ```
    
-### Explanation: (from Official AOSP)
+### Explanation : from Official AOSP Docs
 Build everything with GNU make can handle parallel tasks with a -jN argument, and it's common to use a number of tasks N that's between 1 and 2 times the number of hardware threads on the computer being used for the build. For example, on a dual-E5520 machine (2 CPUs, 4 cores per CPU, 2 threads per core), the fastest builds are made with commands between make -j16 and make -j32.
 
 If you want to know detail about Pure Android building for your android device, read more on my [Personal Blog.](https://medium.com/zawzaww/how-to-build-custom-android-os-for-android-devices-cf4bba4bb3a5)
