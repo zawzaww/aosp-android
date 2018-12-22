@@ -8,11 +8,11 @@
 - You can use this PureAOSP repository if you need AOSP Android Platform Sources.
 
 
-## How To Build Pure Android System Image
-To get started with PureAOSP sources to build Android System image, you'll need to get
+## How To Compile Pure Android System Image from SourceCode
+To get started with PureAOSP sources to build system image, you'll need to get
 familiar with [Git and Repo](https://source.android.com/setup/build/downloading#installing-repo).
 
-To initialize your local repository using the PureAOSP trees to build System image:
+To initialize your local repository using the PureAOSP trees to build system image:
 ```bash
    repo init -u https://github.com/zawzaww/pure-aospandroid.git -b android-9.0.0
 ```
