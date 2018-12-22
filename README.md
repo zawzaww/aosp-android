@@ -1,5 +1,5 @@
 # PureAOSP
-## Android Platform Manifest for Pure Android System Image
+## Android Platform Manifest for Building Pure Android System Image
 
 [AOSP - Android Open Source Project](https://source.android.com)
 - [PureAOSP](https://android.googlesource.com) is a free and Open-source unmodified-Android OS also known as Pure Android with Upstream Linux Kernel.
@@ -8,7 +8,7 @@
 - You can use this PureAOSP repository if you need AOSP Android Platform Sources.
 
 
-## How To Build Pure Android System Image for Devices
+## How To Build Pure Android System Image
 To get started with PureAOSP sources to build Android System image, you'll need to get
 familiar with [Git and Repo](https://source.android.com/setup/build/downloading#installing-repo).
 
