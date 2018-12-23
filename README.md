@@ -52,9 +52,10 @@ lunch <device_name>
 make -j4 (OR) make -j$(nproc --all)
 ```
    
-### Explanation : from Official AOSP Docs
+## Explanation : from AOSP Docs
 Build everything with GNU make can handle parallel tasks with a -jN argument, and it's common to use a number of tasks N that's between 1 and 2 times the number of hardware threads on the computer being used for the build. For example, on a dual-E5520 machine (2 CPUs, 4 cores per CPU, 2 threads per core), the fastest builds are made with commands between make -j16 and make -j32.
 
+## Article/Blog post
 If you want to know detail about Pure Android building for your android device, read more on my [Personal Blog.](https://medium.com/zawzaww/how-to-build-custom-android-os-for-android-devices-cf4bba4bb3a5)
 
 Contributed by: ZawZaw [@XDA-Developers](https://forum.xda-developers.com/member.php?u=7581611)
