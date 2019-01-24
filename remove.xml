@@ -3,10 +3,8 @@
   <!-- Removed AOSP repositories -->
 
   <!-- Development Demos and Samples -->
-  <remove-project name="platform/developers/build" />
   <remove-project name="platform/developers/demos" />
   <remove-project name="platform/developers/samples/android" />
-  <remove-project name="platform/development" />
 
   <!-- Device trees -->
   <remove-project name="device/generic/uml" />
@@ -47,7 +45,6 @@
   <remove-project name="device/sample" />
 
   <!-- Kernel -->
-  <remove-project name="kernel/configs" />
   <remove-project name="kernel/tests" />
 
   <!-- System Packages Apps -->
@@ -57,16 +54,5 @@
   <remove-project name="platform/packages/apps/ExactCalculator" />
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
-
-  <!-- Prebuilts Toochains -->
-  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
-  <remove-project name="platform/prebuilts/go/darwin-x86" />
-  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
  
 </manifest>
