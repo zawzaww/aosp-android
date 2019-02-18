@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Removed AOSP repositories -->
 
-  <!-- Development Demos and Samples -->
-  <remove-project name="platform/developers/demos" />
-  <remove-project name="platform/developers/samples/android" />
-
-  <!-- Device trees -->
+  <!-- Removed AOSP project repositories -->
   <remove-project name="device/generic/uml" />
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
@@ -43,16 +38,5 @@
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
-
-  <!-- Kernel -->
-  <remove-project name="kernel/tests" />
-
-  <!-- System Packages Apps -->
-  <remove-project name="platform/packages/apps/Calendar" />
-  <remove-project name="platform/packages/apps/DeskClock" />
-  <remove-project name="platform/packages/apps/Email" />
-  <remove-project name="platform/packages/apps/ExactCalculator" />
-  <remove-project name="platform/packages/apps/Gallery" />
-  <remove-project name="platform/packages/apps/UnifiedEmail" />
  
 </manifest>

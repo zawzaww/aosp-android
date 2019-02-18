@@ -9,7 +9,7 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <!-- AOSP Android Platform Version Release -->
+  <!-- AOSP Android Version Release -->
   <default revision="refs/tags/android-9.0.0_r33"
            remote="aosp"
            sync-c="true"
@@ -715,6 +715,7 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
+
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- Removed AOSP Projects -->
