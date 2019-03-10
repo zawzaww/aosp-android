@@ -9,8 +9,8 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <!-- AOSP Android Platform Version Release -->         
-  <default revision="refs/tags/android-8.1.0_r61"
+  <!-- AOSP Android Platform Version Release -->
+  <default revision="refs/tags/android-8.1.0_r62"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
