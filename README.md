@@ -56,6 +56,6 @@ For make -jN command
 - Official AOSP Docs: Build everything with GNU make can handle parallel tasks with a -jN argument and it's common to use a number of tasks N that's between 1 and 2 times the number of hardware threads on the computer being used for the build. For example, on a dual-E5520 machine (2 CPUs, 4 cores per CPU, 2 threads per core), the fastest builds are made with commands between make -j16 and make -j32.
 
 ## Blog Post
-If you want to know detail about Pure Android OS building for your android device, read more on my [Personal Blog.](https://zawzaww.github.io/blog/how-to/building-pure-android)
+If you want to know detail about Pure Android OS building for your android device, read more on my [Personal Blog.](https://zawzaww.github.io/blog/how-to/build-pure-android)
 
 Contributed by: ZawZaw [@XDA-Developers](https://forum.xda-developers.com/member.php?u=7581611)
