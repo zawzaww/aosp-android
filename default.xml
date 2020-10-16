@@ -10,8 +10,7 @@
            fetch="https://github.com/" />
 
   <!-- AOSP Android Platform Version Release -->
-
-  <default revision="refs/tags/android-11.0.0_r4"
+  <default revision="refs/tags/android-11.0.0_r5"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
